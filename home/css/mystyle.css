@@ -10,6 +10,9 @@ body {
   h2 {
     background-color: purple;
     opacity: 30%;
+    font-style: Century Gothic;
+    text-transform: uppercase;
+    color:black
   }
   
   p {
