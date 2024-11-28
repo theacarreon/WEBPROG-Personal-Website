@@ -1,13 +1,23 @@
 body {
-    background-color: lightblue;
+    background-color: lavender;
   }
   
   h1 {
-    color: white;
+    color: rgb(243, 105, 224);
     text-align: center;
+  }
+
+  h2 {
+    background-color: purple;
+    opacity: 30%;
   }
   
   p {
     font-family: verdana;
     font-size: 20px;
+  }
+
+  img { 
+    border: 10;
+    border-color: blueviolet;
   }
