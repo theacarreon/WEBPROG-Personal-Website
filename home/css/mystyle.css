@@ -24,10 +24,10 @@ body {
 
 .profilepic img {
     position: absolute; /* Position the image relative to the body */
-    top: 50%; /* Move the image to the vertical center of the page */
+    top: 80%; /* Move the image to the vertical center of the page */
     left: 20%; /* Align the image to the left of the page */
-    width: 150px; /* Set the image width */
-    height: 150px; /* Set the image height */
+    width: 350px; /* Set the image width */
+    height: 350px; /* Set the image height */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure the image fits well inside the circle */
     transform: translateY(-50%); /* Offset the image back to perfectly center it vertically */
