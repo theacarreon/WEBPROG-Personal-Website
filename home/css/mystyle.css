@@ -10,13 +10,15 @@ body {
     height: 100px;
     margin: 0;
     padding: 0;
-  }
+    position: relative;                     /* For better control of positioning */
+}
 
-  header img {
-    height: 100%;       /* Make the image fill the header's height */
-    width: auto;        /* Maintain the aspect ratio */
-    border-radius: 5px; /* Optional: Add rounded corners */
-  }
+header img {
+    height: 100%;      /* Ensure the image fills the header's height */
+    width: 100%;       /* Ensure the image fills the header's width */
+    object-fit: cover; /* Ensures the image covers the header area properly */
+    border-radius: 5px; /* Optional: rounded corners for the image */
+}
   
   h1 {
     color: rgb(243, 105, 224);
