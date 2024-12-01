@@ -5,7 +5,6 @@ body {
 
   header {
     background-color: rgb(175, 175, 175); /* Header background color */
-    display: flex;                       /* Use flexbox layout */
     align-items: center;                 /* Vertically align items in the header */
     height: 10px;
   }
