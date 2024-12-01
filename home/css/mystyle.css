@@ -1,21 +1,12 @@
 body {
-    background-color: lavender;
+    background-image: url("https://www.creativefabrica.com/wp-content/uploads/2020/01/13/Autism-Awareness-Puzzle-Piece-Heart-SVG-Graphics-1-1-580x387.png");
+    background-color: lavender; 
+    background-size: cover;     /* Ensures the image covers the full viewport */
+    background-position: center;/* Centers the image in the viewport */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     margin: 0;
     padding: 0;
-  }
-
-  header {
-    background-color: rgb(208, 206, 206); /* Header background color */
-    width: 100%;
-    height: 100px;
-    margin: 0;
-    padding: 0;
-  }
-
-header img {
-    height: 100%;      /* Ensure the image fills the header's height */
-    width: auto;
-    border-radius: 5px; /* Optional: rounded corners for the image */
+    height: 100vh;              /* Ensures the body takes up the full height of the viewport */
   }
   
   h1 {
