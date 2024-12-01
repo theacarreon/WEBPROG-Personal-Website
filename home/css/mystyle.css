@@ -35,21 +35,3 @@ h1 {
     color: rgb(243, 105, 224);
     text-align: center;
 }
-
-h2 {
-    background-color: purple;
-    opacity: 30%;
-    font-style: Century Gothic;
-    text-transform: uppercase;
-    color:black
-}
-  
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
-
-img { 
-    border: 10;
-    border-color: blueviolet;
-}
