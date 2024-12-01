@@ -23,12 +23,12 @@ body {
 }
 
 .profilepic img {
-    width: 150px; /* Set the width of the circular image */
-    height: 150px; /* Ensure the height matches the width */
-    border-radius: 50%; /* Make the image circular */
-    object-fit: cover; /* Ensure proper cropping of non-square images */
-    position: relative;
-    transform: translateX(-50px); /* Shift slightly to the left */
+  width: 150px; /* Circular image size */
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fits properly */
+  margin: 0 auto; /* Centers the image horizontally */
+  display: block; /* Ensures proper alignment */
 }
 
   
