@@ -30,7 +30,6 @@ body {
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure the image fits well inside the circle */
     transform: translateY(-50%); /* Offset the image back to perfectly center it vertically */
-    z-index: 1; /* Ensure the image is above the background */
 }
 
   
