@@ -13,7 +13,7 @@ body {
     height: 100%;       /* Make the image fill the header's height */
     width: auto;        /* Maintain the aspect ratio */
     border-radius: 5px; /* Optional: Add rounded corners */
-
+  }
   
   h1 {
     color: rgb(243, 105, 224);
