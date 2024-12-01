@@ -10,7 +10,6 @@ body {
     height: 100px;
     margin: 0;
     padding: 0;
-    position: relative;                     /* For better control of positioning */
 }
 
 header img {
