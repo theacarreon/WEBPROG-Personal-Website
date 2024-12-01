@@ -4,25 +4,25 @@ body {
   padding: 0;
   height: 100vh; /* Full viewport height */
   background-color: rgba(69, 69, 69, 0.8); /* Semi-transparent background color */
+  }
+
+  body::before {
+    content: ''; /* Pseudo-element to hold the background image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://www.creativefabrica.com/wp-content/uploads/2020/01/13/Autism-Awareness-Puzzle-Piece-Heart-SVG-Graphics-1-1-580x387.png");
+    background-size: 50%; /* Adjust the image size */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5; /* Set transparency level */
+    z-index: -1; /* Ensure it stays behind the content */
 }
 
-body::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("https://www.creativefabrica.com/wp-content/uploads/2020/01/13/Autism-Awareness-Puzzle-Piece-Heart-SVG-Graphics-1-1-580x387.png");
-  background-size: 50%; /* Adjust the image size */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  opacity: 0.5; /* Adjust transparency (0 is fully transparent, 1 is fully opaque) */
-  z-index: -1; /* Ensure the image stays behind all content */
-}
-
-.profilepic {
+.profilepic img {
     width: 150px; /* Set the width of the circular image */
     height: 150px; /* Ensure the height matches the width */
     border-radius: 50%; /* Make the image circular */
