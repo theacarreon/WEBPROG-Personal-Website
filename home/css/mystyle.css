@@ -15,7 +15,7 @@ body {
 
 header img {
     height: 100%;      /* Ensure the image fills the header's height */
-    width: 100%;       /* Ensure the image fills the header's width */
+    width: auto;
     border-radius: 5px; /* Optional: rounded corners for the image */
 }
   
