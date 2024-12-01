@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100%; /* Full viewport height */
-  background-color: rgba(69, 69, 69, 0.8); /* Semi-transparent background color */
   }
 
   body::before {
