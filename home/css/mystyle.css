@@ -1,5 +1,23 @@
 body {
     background-color: lavender;
+
+  }
+
+  header {
+    background-color: rgb(146, 146, 146); /* Header background color */
+    color: white;            /* Text color inside the header */
+    padding: 20px;           /* Add some spacing inside the header */
+    border-radius: 10px;     /* Rounded corners for the header */
+    display: flex;                       /* Use flexbox layout */
+    align-items: center;                 /* Vertically align items in the header */
+  }
+
+  header img {
+    height: 100%;        /* Set image height to match the header */
+    max-height: 70px;    /* Prevent the image from becoming too large */
+    width: auto;         /* Maintain aspect ratio */
+    margin-right: 20px;  /* Add space between the image and the text */
+
   }
   
   h1 {
