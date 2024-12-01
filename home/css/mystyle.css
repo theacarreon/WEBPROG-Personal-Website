@@ -21,10 +21,6 @@ body {
     z-index: -1; /* Ensure it stays behind the content */
 }
 
-.profilepic {
-    position: relative;
-}
-
 .profilepic img {
     position: absolute; /* Position the image relative to the body */
     top: 50%; /* Move the image to the vertical center of the page */
