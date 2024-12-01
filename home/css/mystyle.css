@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%; /* Full viewport height */
+  background-color: rgba(69, 69, 69, 0.8); /* Semi-transparent background color */
   }
 
   body::before {
@@ -22,13 +23,15 @@ body {
 }
 
 .profilepic img {
-  width: 250px; /* Circular image size */
-  height: 250px;
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover; /* Ensures the image fits properly */
-  margin: 0 auto; /* Centers the image horizontally */
-  display: block; /* Ensures proper alignment */
-}
+    position: absolute; /* Position the image relative to the body */
+    top: 50%; /* Move the image to the vertical center of the page */
+    left: 30%; /* Align the image to the left of the page */
+    transform: translateY(-50%); /* Offset the image by 50% of its height to truly center it */
+    width: 150px; /* Set the image width */
+    height: 150px; /* Set the image height */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fits well inside the circle */
+  }
 
   
 h1 {
