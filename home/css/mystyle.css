@@ -1,15 +1,28 @@
 body {
-    background-image: url("https://www.creativefabrica.com/wp-content/uploads/2020/01/13/Autism-Awareness-Puzzle-Piece-Heart-SVG-Graphics-1-1-580x387.png");
-    background-color: rgb(69, 69, 69, 0.8); 
-    background-size: 50%;     /* Ensures the image covers the full viewport */
-    background-position: center;/* Centers the image in the viewport */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-  }
+  position: relative; /* Enable positioning for the pseudo-element */
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full viewport height */
+  background-color: rgba(69, 69, 69, 0.8); /* Semi-transparent background color */
+}
 
-  .profilepic {
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.creativefabrica.com/wp-content/uploads/2020/01/13/Autism-Awareness-Puzzle-Piece-Heart-SVG-Graphics-1-1-580x387.png");
+  background-size: 50%; /* Adjust the image size */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.5; /* Adjust transparency (0 is fully transparent, 1 is fully opaque) */
+  z-index: -1; /* Ensure the image stays behind all content */
+}
+
+.profilepic {
     width: 150px; /* Set the width of the circular image */
     height: 150px; /* Ensure the height matches the width */
     border-radius: 50%; /* Make the image circular */
@@ -19,25 +32,25 @@ body {
 }
 
   
-  h1 {
+h1 {
     color: rgb(243, 105, 224);
     text-align: center;
-  }
+}
 
-  h2 {
+h2 {
     background-color: purple;
     opacity: 30%;
     font-style: Century Gothic;
     text-transform: uppercase;
     color:black
-  }
+}
   
-  p {
+p {
     font-family: verdana;
     font-size: 20px;
-  }
+}
 
-  img { 
+img { 
     border: 10;
     border-color: blueviolet;
-  }
+}
