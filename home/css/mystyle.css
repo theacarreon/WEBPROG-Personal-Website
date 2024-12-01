@@ -1,14 +1,14 @@
-body {
+html, body {
   position: relative; /* Enable positioning for the pseudo-element */
   margin: 0;
   padding: 0;
-  height: 100vh; /* Full viewport height */
+  height: 100%; /* Full viewport height */
   background-color: rgba(69, 69, 69, 0.8); /* Semi-transparent background color */
   }
 
   body::before {
     content: ''; /* Pseudo-element to hold the background image */
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
