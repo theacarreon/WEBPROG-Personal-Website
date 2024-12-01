@@ -23,13 +23,13 @@ body {
 
 .profilepic img {
     position: absolute; /* Position the image relative to the body */
-    top: 300px; /* Move the image to the vertical center of the page */
-    left: 30px; /* Align the image to the left of the page */
+    top: 50%; /* Move the image to the vertical center of the page */
+    left: 40%; /* Align the image to the left of the page */
     width: 250px; /* Set the image width */
     height: 250px; /* Set the image height */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure the image fits well inside the circle */
-    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    transform: translateY(-50%); /* Center vertically within the circle */
 }
 
   
