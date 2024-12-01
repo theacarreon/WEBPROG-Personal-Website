@@ -29,7 +29,7 @@ body {
     height: 250px; /* Set the image height */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure the image fits well inside the circle */
-    transform: translateY(-50%); /* Offset the image back to perfectly center it vertically */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
 }
 
   
