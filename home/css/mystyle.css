@@ -17,7 +17,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 0.5; /* Set transparency level */
+    opacity: 0.75; /* Set transparency level */
     z-index: -1; /* Ensure it stays behind the content */
 }
 
@@ -53,9 +53,15 @@ h1, p {
     text-align: center; /* Center the text */
 }
 
+h2 {
+    margin: 10px 0; /* Add spacing between elements */
+    text-align: left;    
+}
+
 table {
+    margin-left: 10px;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
 }
   
 th, td {
