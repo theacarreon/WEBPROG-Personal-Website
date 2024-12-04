@@ -23,18 +23,19 @@ body {
 
 .profilepic img {
     display: block;
-    margin-left: 40px;
-    margin-right: 80px;
-    width: 350px;
-    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
 }
 
   
-h1 {
+h1, p {
     display: inline-block; /* Allow the element to size itself like a box */
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px 20px; /* Add spacing inside the box */
     margin: 20px; /* Space around the box */
     border: 2px solid #333; /* Add a border around the text */
@@ -44,5 +45,4 @@ h1 {
     font-size: 24px; /* Adjust the text size */
     color: #333; /* Set the text color */
     text-align: center; /* Center the text inside the box */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
   }
