@@ -22,18 +22,27 @@ body {
 }
 
 .profilepic img {
-    position: absolute;
-    top: 50%; /* Vertically center */
-    left: 30%; /* Move to the left edge */
-    width: 250px;
-    height: 250px;
+    display: block;
+    margin-left: 40px;
+    margin-right: 80px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     object-fit: cover;
     transform: translate(-50%, -50%); /* Center both horizontally and vertically */
-  }
+}
 
   
 h1 {
-    color: rgb(243, 105, 224);
-    text-align: center;
-}
+    display: inline-block; /* Allow the element to size itself like a box */
+    padding: 10px 20px; /* Add spacing inside the box */
+    margin: 20px; /* Space around the box */
+    border: 2px solid #333; /* Add a border around the text */
+    border-radius: 5px; /* Round the edges of the box */
+    background-color: #dcdbdb; /* Set a background color */
+    font-family: Arial, sans-serif; /* Choose a font */
+    font-size: 24px; /* Adjust the text size */
+    color: #333; /* Set the text color */
+    text-align: center; /* Center the text inside the box */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+  }
