@@ -55,11 +55,12 @@ h1, p {
 h2 {
     margin: 10px 0; /* Add spacing between elements */
     text-align: left;
-    margin-left: 10px;    
+    margin-left: 20px;    
 }
 
 table {
-    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
     width: 80%;
 }
