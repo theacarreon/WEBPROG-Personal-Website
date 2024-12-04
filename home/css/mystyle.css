@@ -32,17 +32,24 @@ body {
 }
 
   
-h1, p {
+.AboutMe {
     display: inline-block; /* Allow the element to size itself like a box */
     margin-left: auto;
     margin-right: auto;
     padding: 10px 20px; /* Add spacing inside the box */
-    margin: 20px; /* Space around the box */
-    border: 2px solid #333; /* Add a border around the text */
+    margin: 10px; /* Space around the box */
+    border: 1px solid #333; /* Add a border around the text */
     border-radius: 5px; /* Round the edges of the box */
-    background-color: #dcdbdb; /* Set a background color */
+    background-color: #ebebeb; /* Set a background color */
+    opacity: 0.5;
     font-family: Arial, sans-serif; /* Choose a font */
     font-size: 24px; /* Adjust the text size */
     color: #333; /* Set the text color */
     text-align: center; /* Center the text inside the box */
-  }
+}
+
+h1, p {
+    margin: 10px 0; /* Add spacing between elements */
+    text-align: center; /* Center the text */
+}
+
