@@ -17,7 +17,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 0.75; /* Set transparency level */
+    opacity: 0.5; /* Set transparency level */
     z-index: -1; /* Ensure it stays behind the content */
 }
 
@@ -41,8 +41,7 @@ body {
     padding: 20px; /* Add spacing inside the box */
     border: 2px solid #333; /* Border around the box */
     border-radius: 10px; /* Rounded corners */
-    background-color: #f9f9f9; /* Background color */
-    opacity: 0.5;
+    background-color: #e8e5e5; /* Background color */
     width: 300px; /* Set the width of the box */
     margin: 50px auto; /* Center the box horizontally */
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for 3D effect */
@@ -55,7 +54,8 @@ h1, p {
 
 h2 {
     margin: 10px 0; /* Add spacing between elements */
-    text-align: left;    
+    text-align: left;
+    margin-left: 10px;    
 }
 
 table {
