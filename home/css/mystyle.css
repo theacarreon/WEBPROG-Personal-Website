@@ -1,8 +1,8 @@
 body {
-  position: relative; /* Enable positioning for the pseudo-element */
-  margin: 0;
-  padding: 0;
-  height: 100%; /* Full viewport height */
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
   }
 
   body::before {
@@ -22,15 +22,15 @@ body {
 }
 
 .profilepic img {
-    position: absolute; /* Position the image relative to the body */
-    top: 50%; /* Move the image to the vertical center of the page */
-    left: 30%; /* Align the image to the left of the page */
-    width: 250px; /* Set the image width */
-    height: 250px; /* Set the image height */
-    border-radius: 50%; /* Make the image circular */
-    object-fit: cover; /* Ensure the image fits well inside the circle */
-    transform: translateY(-50%); /* Center vertically within the circle */
-}
+    position: absolute;
+    top: 50%; /* Vertically center */
+    left: 10%; /* Move to the left edge */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+  }
 
   
 h1 {
