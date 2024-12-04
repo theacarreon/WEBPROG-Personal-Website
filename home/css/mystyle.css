@@ -24,7 +24,7 @@ body {
 .profilepic img {
     position: absolute;
     top: 50%; /* Vertically center */
-    left: 10%; /* Move to the left edge */
+    left: 30%; /* Move to the left edge */
     width: 250px;
     height: 250px;
     border-radius: 50%;
