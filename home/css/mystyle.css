@@ -34,7 +34,8 @@ body {
 
 @font-face {
     font-family: "WickedFont-Regular";
-    src: url("https://github.com/theacarreon/WEBPROG-Personal-Website/blob/feature/2_MTC_customize_my_website/home/fonts/WickedFont-Regular-BF65f34594abb81.ttf") format("truetype"); 
+    src: url("https://raw.githubusercontent.com/theacarreon/WEBPROG-Personal-Website/feature/2_MTC_customize_my_website/home/fonts/WickedFont-Regular-BF65f34594abb81.ttf
+    ") format("truetype"); 
 }
 
 .dropdown-menu {
