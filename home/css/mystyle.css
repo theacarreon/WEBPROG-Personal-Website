@@ -32,11 +32,7 @@ body {
     align-items: center;
 }
 
-@font-face {
-    font-family: "WickedFont-Regular";
-    src: url("https://raw.githubusercontent.com/theacarreon/WEBPROG-Personal-Website/feature/2_MTC_customize_my_website/home/fonts/WickedFont-Regular-BF65f34594abb81.ttf
-    ") format("truetype"); 
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
 .dropdown-menu {
     background-color: gray !important; /* Dark background */
@@ -44,10 +40,11 @@ body {
 
 .dropdown-item {
     color: white !important;
-    font-family: "WickedFont-Regular", sans-serif; /* Apply the font */
-    font-size: 18px; /* Adjust as needed */
+    font-family: "Dancing Script", cursive; /* Apply the font */
+    font-size: 18px; /* Adjust size as needed */
+    font-weight: 700; /* Bold style */
 }
 
 .dropdown-item:hover {
-    background-color: #f9b9e3 !important; /* Darker background on hover */
+    background-color: #f9b9e3 !important;
 }
