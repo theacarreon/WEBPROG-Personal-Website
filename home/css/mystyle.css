@@ -33,8 +33,8 @@ body {
 }
 
 @font-face {
-    font-family: "Magical Horison";
-    src: url("C:\Users\THEA C\Downloads\magical-horison-font") format("truetype"); 
+    font-family: "WickedFont-Regular";
+    src: url("https://github.com/theacarreon/WEBPROG-Personal-Website/blob/feature/2_MTC_customize_my_website/home/fonts/WickedFont-Regular-BF65f34594abb81.ttf") format("truetype"); 
 }
 
 .dropdown-menu {
@@ -43,7 +43,7 @@ body {
 
 .dropdown-item {
     color: white !important;
-    font-family: "Magical Horison", sans-serif; /* Apply the font */
+    font-family: "WickedFont-Regular", sans-serif; /* Apply the font */
     font-size: 18px; /* Adjust as needed */
 }
 
