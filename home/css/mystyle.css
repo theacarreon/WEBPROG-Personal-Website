@@ -32,21 +32,25 @@ body {
     align-items: center;
 }
 
+.nav-item {
+    margin-top: 20px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
 .dropdown-menu {
     background-color: gray !important;
-    width: 200px; /* Adjust width */
+    width: auto; /* Adjust width */
     height: auto; /* Adjust height if needed */
     padding: 10px; /* Add space inside the menu */
-    margin-top: 10px; /* Moves dropdown down */
+    margin-top: 15px; /* Moves dropdown down */
 
 }
 
 .dropdown-item {
     color: white !important;
     font-family: "Dancing Script", cursive; /* Apply the font */
-    font-size: 30px; /* Adjust text size */
+    font-size: 50px; /* Adjust text size */
     padding: 10px 15px; /* Controls spacing inside items */
     line-height: 1.5; /* Adjust line spacing */
     text-align: center; /* Centers text */
