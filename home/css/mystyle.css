@@ -41,7 +41,7 @@ body {
 .dropdown-item {
     color: white !important;
     font-family: "Dancing Script", cursive; /* Apply the font */
-    font-size: 18px; /* Adjust size as needed */
+    font-size: 30px; /* Adjust size as needed */
     font-weight: 700; /* Bold style */
 }
 
