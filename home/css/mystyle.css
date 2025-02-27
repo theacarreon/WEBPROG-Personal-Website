@@ -50,7 +50,7 @@ body {
 .dropdown-item {
     color: white !important;
     font-family: "Dancing Script", cursive; /* Apply the font */
-    font-size: 50px; /* Adjust text size */
+    font-size: 30px !important;/* Adjust text size */
     padding: 10px 15px; /* Controls spacing inside items */
     line-height: 1.5; /* Adjust line spacing */
     text-align: center; /* Centers text */
