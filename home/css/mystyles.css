@@ -31,39 +31,29 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 .navbar {
+    background-color: #228B22 !important; /* Green background */
     z-index: 1000;
+    padding: 10px 20px;
 }
 
-.navbar-nav {
-    display: flex;
-    align-items: center;
+.navbar-brand img {
+    height: 60px;
+    width: auto;
+    border-radius: 50%; /* Optional: Makes the logo round */
 }
 
-.nav-item {
-    position: relative;
-}
-
-.dropdown-menu {
-    right: 0 !important;
-    left: auto !important;
-    position: absolute;
-    min-width: 200px;
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.dropdown-item {
-    color: black !important;
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
     font-family: "Dancing Script", cursive;
-    font-size: 30px !important;
-    padding: 10px 15px;
-    line-height: 1.5;
-    text-align: center;
+    margin-right: 15px;
+    transition: color 0.3s ease;
 }
 
-.dropdown-item:hover {
-    background-color: #f9b9e3 !important;
+.navbar-nav .nav-link:hover {
+    color: #f9b9e3 !important; /* Light pink hover effect */
+    text-decoration: underline;
 }
 
 .title {
