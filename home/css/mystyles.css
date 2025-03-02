@@ -58,12 +58,11 @@ html {
 
 .title {
     display: flex;
-    justify-content: center;  
-    align-items: center;       
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Pushes it to the center of the screen */
     text-align: center;
-    position: relative;
-} 
-
+}
 
 #title-welcome {
     background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent box */
@@ -112,6 +111,9 @@ html {
 .about-container {
   display: flex; /* Enable Flexbox */
   align-items: center; /* Vertically align items */
+  justify-content: center; /* Centers the content */
+  gap: 50px; /* Space between image & text */
+  padding: 30px;
 }
 
 .profile-pic {
