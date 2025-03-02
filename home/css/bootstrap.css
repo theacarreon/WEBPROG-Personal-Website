@@ -1,14 +1,13 @@
-
 .navbar {
-    z-index: 1000; /* Ensures it stays above other elements */
+    z-index: 1000;
+    position: fixed; /* Keep the navbar fixed */
+    width: 100%;
 }
 
 .navbar-nav {
     display: flex;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    align-items: center;
+    align-items: center; /* Keep align items center */
+    /* Remove position: fixed; and width: 100%; */
 }
 
 .nav-item {
@@ -17,7 +16,7 @@
 
 .dropdown-menu {
     position: absolute;
-    left: 0;
+    /* Remove left: 0; */
     z-index: 1050;
 }
 
@@ -33,5 +32,3 @@
 .dropdown-item:hover {
     background-color: #f9b9e3 !important;
 }
-
-
