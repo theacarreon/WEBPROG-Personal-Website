@@ -65,7 +65,7 @@ html {
     width: 100vw;
     text-align: center;
     background-image: url('https://images.hdqwalls.com/download/elphaba-and-glinda-in-wicked-movie-ea-2880x1800.jpg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     gap: 50px; /* Space between items */
