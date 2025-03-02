@@ -32,8 +32,6 @@ html {
 
 .navbar {
     z-index: 1000;
-    position: fixed;
-    width: 100%;
 }
 
 .navbar-nav {
@@ -43,17 +41,13 @@ html {
 
 .nav-item {
     margin-top: 10px;
-    position: relative; 
+ 
 }
 
 .dropdown-menu {
-    left: auto !important;
-    right: 0 !important; /* Ensures dropdown aligns properly */
-    transform: translateX(-50%); /* Centers the dropdown */
-    min-width: 200px; /* Adjust width */
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    z-index: 1050;
 }
 
 .dropdown-item {
