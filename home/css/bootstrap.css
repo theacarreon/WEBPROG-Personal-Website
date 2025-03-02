@@ -5,6 +5,9 @@
 
 .navbar-nav {
     display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
     align-items: center;
 }
 

@@ -75,20 +75,27 @@ body {
 
 #about {
     padding: 20px;
+    display: none;
   }
   
   .about-container {
     display: flex;
-    align-items: center; 
+    align-items: center;
+    position: relative; 
   }
   
   .profile-image {
-    margin-right: 30px; 
-  }
+    position: absolute;
+    left: -150px; /* Adjust as needed */
+    width: 100px; /* Adjust image size */
+    height: auto;
+}
   
-  .info-box {
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
-    padding: 20px; 
-  }
+.info-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    flex: 1; /* Take up remaining space */
+    margin-left: 150px; /* adjust to match profile image width */
+}
 
 
