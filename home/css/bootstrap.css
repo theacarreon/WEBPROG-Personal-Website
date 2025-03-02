@@ -1,6 +1,6 @@
 .navbar {
     z-index: 1000;
-    position: fixed; /* Keep the navbar fixed */
+    position: fixed; /* Keeps navbar fixed at top */
     width: 100%;
 }
 
@@ -9,12 +9,14 @@
 }
 
 .nav-item {
+    position: relative; /* Fixes dropdown positioning */
     margin-top: 10px;
 }
 
 .dropdown-menu {
     position: absolute;
     z-index: 1050;
+    min-width: 200px; /* Ensures a good dropdown width */
 }
 
 .dropdown-item {
@@ -22,7 +24,6 @@
     font-family: "Dancing Script", cursive;
     font-size: 30px !important;
     padding: 10px 15px;
-    line-height: 1.5;
     text-align: center;
 }
 
