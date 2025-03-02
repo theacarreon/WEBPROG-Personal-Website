@@ -31,7 +31,7 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 .navbar {
-    background-color: #228B22 !important; /* Green background */
+    background-color: #1f7a1f !important; /* Green background */
     z-index: 1000;
     padding: 10px 20px;
 }
