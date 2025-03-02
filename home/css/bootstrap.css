@@ -1,22 +1,21 @@
 .navbar {
     z-index: 1000;
-    position: fixed; /* Keeps navbar fixed at top */
+    position: fixed; /* Keep the navbar fixed */
     width: 100%;
 }
 
 .navbar-nav {
     display: flex;
+    align-items: center;
 }
 
 .nav-item {
-    position: relative; /* Fixes dropdown positioning */
-    margin-top: 10px;
+    margin-top: 10px; 
+    position: relative; /* This is important for correct dropdown positioning */
 }
 
 .dropdown-menu {
-    position: absolute;
-    z-index: 1050;
-    min-width: 200px; /* Ensures a good dropdown width */
+    z-index: 1050; 
 }
 
 .dropdown-item {
