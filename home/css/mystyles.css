@@ -32,7 +32,7 @@ html {
 
 .navbar {
     z-index: 1000;
-    position: fixed; /* Keep the navbar fixed */
+    position: fixed;
     width: 100%;
 }
 
@@ -83,14 +83,14 @@ html {
     max-width: 600px; /* Controls width */
 }
 
-#title-welcome h1 
+#title-welcome h1 {
     font-family: 'Lilita One', serif; 
     font-size: 2.5em;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-#title-welcome h2 { /* Fixed the class selector */
+#title-welcome h2 { 
     font-family: 'Dancing Script', sans-serif; 
     font-size: 1.5em;
     font-weight: 300;
@@ -123,15 +123,11 @@ html {
   align-items: center; /* Vertically align items */
 }
 
-.profile-image {
-  margin-right: 20px; /* Add space between image and info box */
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
-  margin: 20px auto;
-  display: block;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
 }
 
 .info-box {
