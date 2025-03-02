@@ -47,9 +47,13 @@ html {
 }
 
 .dropdown-menu {
-    position: absolute; 
-    z-index: 1050;
-    min-width: 300px; /* Adjust as needed */
+    left: auto !important;
+    right: 0 !important; /* Ensures dropdown aligns properly */
+    transform: translateX(-50%); /* Centers the dropdown */
+    min-width: 200px; /* Adjust width */
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .dropdown-item {
