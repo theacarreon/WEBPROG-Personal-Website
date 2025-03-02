@@ -18,13 +18,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /*opacity: 0.5; /* Set transparency level */
+    opacity: 0.8; /* Set transparency level */
     z-index: -1; /* Ensure it stays behind the content */
-}
-
-.navbar {
-    background-color: black !important;
-    height: 100px;
 }
 
 .navbar-nav {
@@ -33,7 +28,7 @@ body {
 }
 
 .nav-item {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
