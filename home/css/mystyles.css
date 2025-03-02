@@ -64,7 +64,7 @@ html {
     height: 100vh; /* Adjust container height */
     text-align: center;
     background-image: url('https://4kwallpapers.com/images/walls/thumbs_2t/18391.jpeg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     gap: 50px; /* Space between items */
