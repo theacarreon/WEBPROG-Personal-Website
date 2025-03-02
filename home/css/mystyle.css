@@ -55,18 +55,43 @@ body {
     background-color: #f9b9e3 !important;
 }
 
-.video-container {
+.audio-container {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centers it */
-    width: 80%; /* Adjust as needed */
-    max-width: 560px; /* Controls max width */
-    aspect-ratio: 16 / 9;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    cursor: pointer;
 }
 
-.video-container iframe {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
+.audio-container img {
+            width: 100%;
+            display: block;
+            border-radius: 10px;
+        }
+
+.play-button {
+          position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px;
+            border-radius: 50%;
+            font-size: 20px;
+            text-align: center;
+        }
+
+.play-button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        
+#youtubeAudio {
+            display: none;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+            position: absolute;
+        }
