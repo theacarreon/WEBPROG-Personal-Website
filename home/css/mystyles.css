@@ -43,7 +43,7 @@ html {
 
 .nav-item {
     margin-top: 10px;
-    position: relative; /* Ensure dropdown is positioned relative to the nav-item */
+    position: relative; 
 }
 
 .dropdown-menu {
