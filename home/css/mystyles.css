@@ -40,14 +40,17 @@ html {
 }
 
 .nav-item {
-    margin-top: 10px;
- 
+    position: relative;
 }
 
 .dropdown-menu {
+    right: 0 !important;
+    left: auto !important;
     position: absolute;
-    left: 0;
-    z-index: 1050;
+    min-width: 200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .dropdown-item {
