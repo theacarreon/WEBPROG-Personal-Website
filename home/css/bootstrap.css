@@ -6,8 +6,6 @@
 
 .navbar-nav {
     display: flex;
-    align-items: center; /* Keep align items center */
-    /* Remove position: fixed; and width: 100%; */
 }
 
 .nav-item {
@@ -16,7 +14,6 @@
 
 .dropdown-menu {
     position: absolute;
-    /* Remove left: 0; */
     z-index: 1050;
 }
 
