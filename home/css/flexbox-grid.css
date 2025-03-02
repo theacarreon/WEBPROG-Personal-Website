@@ -28,20 +28,15 @@ body {
 }
 
 .title {
-    height: 100vh;
-    background-image: url('https://4kwallpapers.com/images/walls/thumbs_2t/18391.jpeg');
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;  
     align-items: center;       
     text-align: center;
-    position: relative;
 } 
 
 
 #title-welcome {
-    background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent box */
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent box */
     color: white; /* Text color */
     padding: 30px; /* Space inside the box */
     border-radius: 10px; /* Rounded corners */
@@ -49,14 +44,14 @@ body {
     max-width: 600px; /* Controls width */
 }
 
-#title-welcome h1 { /* Fixed the class selector */
+#title-welcome h1 {
     font-family: 'Lilita One', serif; 
     font-size: 2.5em;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-#title-welcome h2 { /* Fixed the class selector */
+#title-welcome h2 {
     font-family: 'Dancing Script', sans-serif; 
     font-size: 1.5em;
     font-weight: 300;
