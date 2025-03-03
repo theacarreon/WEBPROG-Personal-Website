@@ -68,7 +68,7 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    gap: 50px; /* Space between items */
+    gap: 70px; /* Space between items */
 }
 
 #title-welcome {
@@ -131,6 +131,10 @@ html {
 }
 
 .info-box {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
   background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
   padding: 20px; /* Add padding to the info box */
   border-radius: 10px; /* Optional: Add rounded corners */
