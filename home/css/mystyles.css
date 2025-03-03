@@ -145,6 +145,7 @@ html {
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds shadow */
   max-width: 600px; /* Controls width */
+  margin-bottom: 30vh;
 }
 
 .info-box h2 {
@@ -192,6 +193,7 @@ h2 {
     justify-content: center; /* Center items vertically */
     align-items: center; /* Center items horizontally */
     font-family: 'Lilita One', sans-serif; 
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 300;
+    color: white;
 }
