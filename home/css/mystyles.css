@@ -157,3 +157,23 @@ html {
     font-size: 1.5em;
     font-weight: 300;
 }
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.6); /* Semi-dark background */
+    color: white;
+    text-align: left;
+}
+
+.education-table th, .education-table td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.school-logo {
+    width: 30px; /* Adjust logo size */
+    height: auto;
+    margin-right: 10px; /* Adds space between logo and school name */
+    vertical-align: middle; /* Aligns logo with text */
+}
