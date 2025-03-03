@@ -159,28 +159,32 @@ html {
 }
 
 .education-table {
-    width: 60%;
-    margin: 0 auto;
-    border-collapse: separate; /* Change from collapse */
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    border-collapse: separate; /* Required for border-radius */
+    border-spacing: 0; /* Ensures no gaps */
+    background: rgba(0, 0, 0, 0.6);
     text-align: center;
-    margin-bottom: 30vh;
-    padding: 30px;
-    border-radius: 10px;
-    overflow: hidden; /* Ensures rounded corners apply */
+    padding: 20px;
+    border-radius: 20px; /* Makes the table rounded */
+    overflow: hidden; /* Ensures border-radius applies */
 }
+
 
 .education-table th, .education-table td {
-    border: 1px solid rgba(255, 255, 255, 0.5); 
-    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 12px;
+    color: white;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
-
 .school-logo {
-    width: 30px; /* Adjust logo size */
+    width: 50px;  /* Adjust size */
     height: auto;
-    margin-right: 10px; /* Adds space between logo and school name */
-    vertical-align: middle; /* Aligns logo with text */
+    margin-right: 10px;
+    vertical-align: middle; /* Aligns with text */
+    display: inline-block;
 }
 
 .education-table th {
@@ -191,6 +195,19 @@ html {
 
 .education-table td {
     vertical-align: middle; /* Aligns text & images */
+}
+
+.education-table th:first-child {
+    border-top-left-radius: 20px;
+}
+.education-table th:last-child {
+    border-top-right-radius: 20px;
+}
+.education-table tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+.education-table tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
 }
 
 #Education h2 {
