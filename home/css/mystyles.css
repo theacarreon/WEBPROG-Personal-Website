@@ -232,9 +232,6 @@ html {
     transition: transform 0.3s ease-in-out;
 }
 
-.experience-item:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
-}
 
 .experience-item img {
     display: block; /* Ensures block-level behavior */
