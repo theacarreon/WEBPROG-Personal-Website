@@ -69,7 +69,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     gap: 70px; /* Space between items */
-    margin-bottom: 30vh;
+    margin-bottom: 10vh;
 }
 
 #title-welcome {
