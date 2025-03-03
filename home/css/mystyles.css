@@ -79,6 +79,7 @@ html {
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds shadow */
     max-width: 600px; /* Controls width */
+    margin-bottom: 30vh;
 }
 
 #title-welcome h1 {
@@ -113,40 +114,37 @@ html {
 }
 
 #about {
-  padding: 20px;
-}
+    padding-top: 30vh; 
+    margin-bottom: 30vh;
 
 .about-container {
-  display: flex; /* Enable Flexbox */
-  align-items: center; /* Vertically align items */
-  justify-content: center; /* Centers the content */
-  gap: 50px; /* Space between image & text */
-  padding: 30px;
-}
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap; 
+  }
 
 .profile-pic {
     width: 150px;
     height: auto;
     border-radius: 50%;
     display: block;
-}
+    align-self: flex-start; /* Ensures the image stays aligned at the top */
+  }
 
 .info-box {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
-  padding: 20px; /* Add padding to the info box */
-  border-radius: 10px; /* Optional: Add rounded corners */
-  background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent box */
-  color: white; /* Text color */
-  padding: 30px; /* Space inside the box */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds shadow */
-  max-width: 600px; /* Controls width */
-  margin-bottom: 30vh;
-}
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+  }
+
 
 .info-box h2 {
     font-family: 'Dancing Script', sans-serif; 
@@ -163,13 +161,14 @@ html {
 .education-table {
     width: 60%;
     margin: 0 auto;
-    border-collapse: collapse;
-    background: rgba(0, 0, 0, 0.5); /* Semi-dark background */
+    border-collapse: separate; /* Change from collapse */
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: center;
     margin-bottom: 30vh;
-    padding: 30px; /* Space inside the box */
-    border-radius: 10px; /* Rounded corners */
+    padding: 30px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures rounded corners apply */
 }
 
 .education-table th, .education-table td {
@@ -186,16 +185,18 @@ html {
 
 .education-table th {
     font-weight: bold;
-    text-align: center;
+    padding: 12px;
+    margin-top: 30vh;
+}
+
+.education-table td {
+    vertical-align: middle; /* Aligns text & images */
 }
 
 h2 {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
     font-family: 'Lilita One', sans-serif; 
     font-size: 2em;
     font-weight: 300;
     color: white;
+    text-align: center; /* Centers text */
 }
