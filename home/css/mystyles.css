@@ -161,19 +161,11 @@ html {
 .education-table {
     width: 80%; /* Wider table */
     margin: 50px auto; /* Center the table */
-    border-collapse: separate; /* Prevents broken corners */
+    border-collapse: collapse; 
     background: rgba(0, 0, 0, 0.7);
     color: white;
     text-align: center;
     border-radius: 20px; /* Rounded edges */
-    overflow: hidden; /* Ensures corners stay rounded */
-}
-
-
-.education-table th, .education-table td {
-    border: 1px solid rgba(255, 255, 255, 0.5); 
-    padding: 10px;
-    vertical-align: middle; /* Aligns text & images */
 }
 
 .school-logo {
@@ -191,7 +183,6 @@ html {
 }
 
 .education-table td {
-    display: flex; /* Enables Flexbox inside table cells */
     align-items: center; /* Align vertically */
     gap: 10px; /* Space between logo and text */
     justify-content: flex-start; /* Align to the left */
