@@ -126,7 +126,7 @@ html {
   }
 
 .profile-pic {
-    width: 150px;
+    width: 200px;
     height: auto;
     border-radius: 50%;
     display: block;
@@ -197,6 +197,6 @@ html {
     font-family: 'Lilita One', sans-serif; 
     font-size: 2em;
     font-weight: 300;
-    color: white;
+    color: white !important;
     text-align: center; /* Centers text */
 }
