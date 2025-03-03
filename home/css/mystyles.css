@@ -69,6 +69,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     gap: 70px; /* Space between items */
+    margin-bottom: 50vh;
 }
 
 #title-welcome {
@@ -159,12 +160,13 @@ html {
 }
 
 .education-table {
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     border-collapse: collapse;
     background: rgba(0, 0, 0, 0.5); /* Semi-dark background */
     color: white;
     text-align: left;
+    margin-bottom: 30vh;
 }
 
 .education-table th, .education-table td {
