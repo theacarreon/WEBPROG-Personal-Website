@@ -206,16 +206,15 @@ html {
     color: white;
 }
 
-/* Heading Styling */
+
 #it-experience h2 {
     font-size: 2em;
     font-family: 'Lilita One', sans-serif;
     margin-bottom: 20px;
-    color: #00ff88; /* Neon green effect */
+    color: white !important; /* Neon green effect */
     text-shadow: 0px 0px 10px #00ff88; /* Glow effect */
 }
 
-/* Experience Container */
 .experience-container {
     display: flex;
     justify-content: center; /* Center content horizontally */
@@ -224,7 +223,6 @@ html {
     gap: 20px; /* Space between items */
 }
 
-/* Experience Item Styling */
 .experience-item {
     background: rgba(255, 255, 255, 0.1); /* Slight transparent white background */
     padding: 20px;
@@ -238,7 +236,6 @@ html {
     transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
-/* Image Styling */
 .experience-item img {
     width: 100%; /* Make it responsive */
     max-width: 500px; /* Restrict max size */
@@ -247,7 +244,6 @@ html {
     box-shadow: 0px 0px 10px rgba(0, 255, 136, 0.5); /* Glow effect */
 }
 
-/* Text Styling */
 .experience-item p {
     font-size: 1.1em;
     line-height: 1.5;
