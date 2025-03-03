@@ -193,7 +193,7 @@ html {
     vertical-align: middle; /* Aligns text & images */
 }
 
-h2 {
+#Education h2 {
     font-family: 'Lilita One', sans-serif; 
     font-size: 2em;
     font-weight: 300;
