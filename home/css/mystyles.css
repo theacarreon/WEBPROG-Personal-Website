@@ -18,7 +18,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 0.8; /* Set transparency level */
+    opacity: 0.7; /* Set transparency level */
     z-index: -1; /* Ensure it stays behind the content */
 }
 
@@ -166,8 +166,10 @@ html {
     border-collapse: collapse;
     background: rgba(0, 0, 0, 0.5); /* Semi-dark background */
     color: white;
-    text-align: left;
+    text-align: center;
     margin-bottom: 30vh;
+    padding: 30px; /* Space inside the box */
+    border-radius: 10px; /* Rounded corners */
 }
 
 .education-table th, .education-table td {
