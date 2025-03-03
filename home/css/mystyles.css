@@ -115,12 +115,6 @@ html {
 
 #about {
     padding-top: 10vh;
-    background: rgba(0, 0, 0, 0.8); /* Dark transparent background */
-    padding: 40px;
-    border-radius: 10px; /* Smooth rounded corners */
-    margin-top: 50px; /* Space from the Education section */
-    text-align: center; /* Center align text */
-    color: white;
 }
 
 .about-container {
