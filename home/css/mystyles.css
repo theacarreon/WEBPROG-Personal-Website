@@ -159,61 +159,40 @@ html {
 }
 
 .education-table {
-    width: 80%;
-    max-width: 900px;
-    margin: 50px auto;
-    border-collapse: separate; /* Required for border-radius */
-    border-spacing: 0; /* Ensures no gaps */
-    background: rgba(0, 0, 0, 0.6);
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: separate; /* Allows border-radius */
+    background: rgba(0, 0, 0, 0.5); /* Semi-dark background */
+    color: white;
     text-align: center;
-    padding: 20px;
-    border-radius: 20px; /* Makes the table rounded */
-    overflow: hidden; /* Ensures border-radius applies */
+    margin-bottom: 30vh;
+    padding: 30px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures rounded corners work */
 }
-
 
 .education-table th, .education-table td {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    padding: 12px;
-    color: white;
-    font-weight: 500;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    padding: 10px;
+    vertical-align: middle; /* Aligns text & images */
 }
+
 .school-logo {
-    width: 50px;  /* Adjust size */
+    width: 30px; /* Adjust logo size */
     height: auto;
-    margin-right: 10px;
-    vertical-align: middle; /* Aligns with text */
-    display: inline-block;
+    margin-right: 10px; /* Adds space between logo and school name */
+    vertical-align: middle; /* Aligns logo with text */
 }
 
 .education-table th {
     font-weight: bold;
     padding: 12px;
-    margin-top: 30vh;
-}
-
-.education-table td {
-    vertical-align: middle; /* Aligns text & images */
-}
-
-.education-table th:first-child {
-    border-top-left-radius: 20px;
-}
-.education-table th:last-child {
-    border-top-right-radius: 20px;
-}
-.education-table tr:last-child td:first-child {
-    border-bottom-left-radius: 20px;
-}
-.education-table tr:last-child td:last-child {
-    border-bottom-right-radius: 20px;
 }
 
 #Education h2 {
     font-family: 'Lilita One', sans-serif; 
     font-size: 2em;
     font-weight: 300;
-    color: white !important;
+    color: white;
     text-align: center; /* Centers text */
 }
