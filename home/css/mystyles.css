@@ -244,7 +244,7 @@ html {
     border-radius: 10px;
     margin-top: 15px;
     color: white; /* White font color */
-    box-shadow: 0px 5px 15px rgba(0, 255, 136, 0.3); /* Soft glowing effect */
+    box-shadow: 0px 5px 15px rgba(255, 0, 170, 0.434); /* Soft glowing effect */
     font-family: 'Lilita One', sans-serif;
     font-size: 1em;
 }
@@ -298,7 +298,7 @@ html {
     border-radius: 10px;
     margin-top: 15px;
     color: white; /* White font color */
-    box-shadow: 0px 5px 15px rgba(0, 255, 136, 0.3); /* Soft glowing effect */
+    box-shadow: 0px 5px 15px rgba(255, 0, 170, 0.434); /* Soft glowing effect */
     font-family: 'Lilita One', sans-serif;
     font-size: 1.5em;
     max-width: 600px;
@@ -314,4 +314,63 @@ html {
     .hob-in-img img {
         width: 150px; /* Reduce image size for smaller screens */
     }
+}
+
+#hgallery {
+    background: rgba(0, 0, 0, 0.8); /* Dark transparent background */
+    padding: 40px;
+    border-radius: 10px; /* Smooth rounded corners */
+    margin-top: 50px; /* Space from the Education section */
+    text-align: center; /* Center align text */
+    color: white;
+}
+
+#gallery h2 {
+    font-size: 2em;
+    font-family: 'Lilita One', sans-serif;
+    margin-bottom: 20px;
+    color: white !important; /* Neon green effect */
+    text-shadow: 0px 0px 10px #00ff88; /* Glow effect */
+}
+
+.gallery-pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 900px; 
+    margin: auto;
+}
+
+.gal-img {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Spacing between images */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    width: 100%;
+    max-width: 900px;
+}
+
+.gal-img img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px; /* Optional styling */
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(0, 255, 136, 0.5); /* Glow effect */
+}
+
+.gal-img figcaption {
+    background: rgba(0, 0, 0, 0.6); /* Semi-dark background */
+    padding: 10px; /* Adjusted padding */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 8px; /* Spacing from image */
+    color: white; /* White font color */
+    box-shadow: 0px 5px 15px rgba(255, 0, 170, 0.434); /* Soft glowing effect */
+    font-family: 'Lilita One', sans-serif;
+    font-size: 1.2em; /* Adjusted font size for better scaling */
+    max-width: 200px; /* Matches the figure's width */
+    text-align: center;
+    display: block; /* Ensures it behaves as a box element */
+    width: 100%; /* Ensures it expands properly */
 }
