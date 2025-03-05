@@ -165,6 +165,7 @@ html {
     background: rgba(0, 0, 0, 0.5); /* Semi-dark background */
     color: white;
     text-align: center;
+    font-family: "Lilita One";
     box-shadow: 0px 5px 15px rgba(0, 255, 136, 0.3); /* Glowing shadow */
 }
 
@@ -186,7 +187,7 @@ html {
 }
 
 #Education h2 {
-    font-family: 'Lilita One', sans-serif; 
+    font-family: 'Dancing Script', sans-serif; 
     font-size: 2em;
     font-weight: 300;
     color: white !important;
@@ -205,7 +206,7 @@ html {
 
 #it-experience h2 {
     font-size: 2em;
-    font-family: 'Lilita One', sans-serif;
+    font-family: 'Dancing Script', sans-serif;
     margin-bottom: 20px;
     color: white !important; /* Neon green effect */
     text-shadow: 0px 0px 10px #00ff88; /* Glow effect */
@@ -260,7 +261,7 @@ html {
 
 #hobbies-interest h2 {
     font-size: 2em;
-    font-family: 'Lilita One', sans-serif;
+    font-family: 'Dancing Script', sans-serif;
     margin-bottom: 20px;
     color: white !important; /* Neon green effect */
 }
@@ -316,7 +317,7 @@ html {
     }
 }
 
-#hgallery {
+#gallery {
     background: rgba(0, 0, 0, 0.8); /* Dark transparent background */
     padding: 40px;
     border-radius: 10px; /* Smooth rounded corners */
@@ -327,7 +328,7 @@ html {
 
 #gallery h2 {
     font-size: 2em;
-    font-family: 'Lilita One', sans-serif;
+    font-family: 'Dancing Script', sans-serif;
     margin-bottom: 20px;
     color: white !important; /* Neon green effect */
     text-shadow: 0px 0px 10px #00ff88; /* Glow effect */
@@ -349,11 +350,11 @@ html {
     gap: 30px; /* Spacing between images */
     flex-wrap: wrap; /* Ensures responsiveness */
     width: 100%;
-    max-width: 900px;
+    max-width: 1100px;
 }
 
 .gal-img img {
-    width: 200px; /* Adjust as needed */
+    width: 180px; /* Adjust as needed */
     height: auto;
     border-radius: 8px; /* Optional styling */
     object-fit: cover;
