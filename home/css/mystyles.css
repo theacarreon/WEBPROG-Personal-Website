@@ -251,7 +251,6 @@ html {
 
 
 #hobbies-interest {
-    background: rgba(0, 0, 0, 0.8); /* Dark transparent background */
     padding: 40px;
     border-radius: 10px; /* Smooth rounded corners */
     margin-top: 50px; /* Space from the Education section */
@@ -279,12 +278,12 @@ html {
 .hob-in-img {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Spacing between images */
+    gap: 30px; /* Spacing between images */
     flex-wrap: wrap; /* Ensures responsiveness */
 }
   
 .hob-in-img img {
-    width: 150px; /* Adjust as needed */
+    width: 250px; /* Adjust as needed */
     height: auto;
     border-radius: 8px; /* Optional styling */
     object-fit: cover;
