@@ -350,7 +350,7 @@ html {
 .gal-img {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Spacing between images */
+    gap: 30px; /* Spacing between images */
     flex-wrap: wrap; /* Ensures responsiveness */
     width: 100%;
     max-width: 1100px;
