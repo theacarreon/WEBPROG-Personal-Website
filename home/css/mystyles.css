@@ -251,7 +251,6 @@ html {
 
 
 #hobbies-interest {
-    background: rgba(0, 0, 0, 0.8);
     padding: 40px;
     border-radius: 10px; /* Smooth rounded corners */
     margin-top: 50px; 
@@ -281,12 +280,6 @@ html {
     justify-content: center;
     gap: 30px; /* Spacing between images */
     flex-wrap: wrap; /* Ensures responsiveness */
-    background: rgba(255, 255, 255, 0.1); /* Slight transparent white background */
-    padding: 20px;
-    border-radius: 15px;
-    width: auto; /* Adjust width */
-    box-shadow: 0px 5px 15px rgba(0, 255, 136, 0.3); /* Glowing shadow */
-    transition: transform 0.3s ease-in-out;
 }
   
 .hob-in-img img {
@@ -305,7 +298,7 @@ html {
     color: white; /* White font color */
     box-shadow: 0px 5px 15px rgba(0, 255, 136, 0.3); /* Soft glowing effect */
     font-family: 'Lilita One', sans-serif;
-    font-size: 1em;
+    font-size: 2em;
     max-width: 600px;
     text-align: center;
 }
