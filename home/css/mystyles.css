@@ -189,7 +189,7 @@ html {
 #Education h2 {
     font-family: 'Dancing Script', sans-serif; 
     font-size: 2em;
-    font-weight: 300;
+    font-weight: bold;
     color: white !important;
     text-align: center; /* Centers text */
 }
@@ -207,6 +207,7 @@ html {
 #it-experience h2 {
     font-size: 2em;
     font-family: 'Dancing Script', sans-serif;
+    font-weight: bold;
     margin-bottom: 20px;
     color: white !important; /* Neon green effect */
     text-shadow: 0px 0px 10px #00ff88; /* Glow effect */
@@ -247,7 +248,7 @@ html {
     color: white; /* White font color */
     box-shadow: 0px 5px 15px rgba(255, 0, 170, 0.434); /* Soft glowing effect */
     font-family: 'Lilita One', sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 
@@ -262,6 +263,7 @@ html {
 #hobbies-interest h2 {
     font-size: 2em;
     font-family: 'Dancing Script', sans-serif;
+    font-weight: bold;
     margin-bottom: 20px;
     color: white !important; /* Neon green effect */
 }
@@ -329,6 +331,7 @@ html {
 #gallery h2 {
     font-size: 2em;
     font-family: 'Dancing Script', sans-serif;
+    font-weight: bold;
     margin-bottom: 20px;
     color: white !important; /* Neon green effect */
     text-shadow: 0px 0px 10px #00ff88; /* Glow effect */
@@ -347,7 +350,7 @@ html {
 .gal-img {
     display: flex;
     justify-content: center;
-    gap: 30px; /* Spacing between images */
+    gap: 20px; /* Spacing between images */
     flex-wrap: wrap; /* Ensures responsiveness */
     width: 100%;
     max-width: 1100px;
@@ -355,10 +358,19 @@ html {
 
 .gal-img img {
     width: 180px; /* Adjust as needed */
-    height: auto;
+    height: 250px;
     border-radius: 8px; /* Optional styling */
     object-fit: cover;
     box-shadow: 0px 0px 10px rgba(0, 255, 136, 0.5); /* Glow effect */
+}
+
+.gal-img figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 5 - 20px); /* Ensure exactly 5 per row */
+    max-width: 200px; /* Adjust to match image size */
 }
 
 .gal-img figcaption {
@@ -374,4 +386,15 @@ html {
     text-align: center;
     display: block; /* Ensures it behaves as a box element */
     width: 100%; /* Ensures it expands properly */
+}
+
+@media (max-width: 800px) {
+    .gal-img {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .gal-img img {
+        width: 150px; /* Reduce image size for smaller screens */
+    }
 }
