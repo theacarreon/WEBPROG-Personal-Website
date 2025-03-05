@@ -364,14 +364,6 @@ html {
     box-shadow: 0px 0px 10px rgba(0, 255, 136, 0.5); /* Glow effect */
 }
 
-.gal-img figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: calc(100% / 5 - 20px); /* Ensure exactly 5 per row */
-    max-width: 200px; /* Adjust to match image size */
-}
 
 .gal-img figcaption {
     background: rgba(0, 0, 0, 0.6); /* Semi-dark background */
