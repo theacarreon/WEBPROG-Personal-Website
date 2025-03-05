@@ -248,3 +248,45 @@ html {
     font-family: 'Lilita One', sans-serif;
     font-size: 1em;
 }
+
+
+#hobbies-interest h2 {
+    font-size: 2em;
+    font-family: 'Lilita One', sans-serif;
+    margin-bottom: 20px;
+    color: white !important; /* Neon green effect */
+    text-shadow: 0px 0px 10px #00ff88; /* Glow effect */
+}
+.hobbies-interest-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .hob-in-img {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Spacing between images */
+    flex-wrap: wrap; /* Ensures responsiveness */
+  }
+  
+  .hob-in-img img {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px; /* Optional styling */
+    object-fit: cover;
+  }
+  
+  .hob-in-desc {
+    background: rgba(0, 0, 0, 0.6); /* Semi-dark background */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: white; /* White font color */
+    box-shadow: 0px 5px 15px rgba(0, 255, 136, 0.3); /* Soft glowing effect */
+    font-family: 'Lilita One', sans-serif;
+    font-size: 1em;
+}
