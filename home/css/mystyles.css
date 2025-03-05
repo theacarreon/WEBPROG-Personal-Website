@@ -353,7 +353,7 @@ html {
     gap: 30px; /* Spacing between images */
     flex-wrap: wrap; /* Ensures responsiveness */
     width: 100%;
-    max-width: 1100px;
+    max-width: 1300px;
 }
 
 .gal-img img {
@@ -362,6 +362,15 @@ html {
     border-radius: 8px; /* Optional styling */
     object-fit: cover;
     box-shadow: 0px 0px 10px rgba(0, 255, 136, 0.5); /* Glow effect */
+}
+
+.gal-img figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 5 - 20px); /* Ensure exactly 5 per row */
+    max-width: 200px; /* Adjust to match image size */
 }
 
 
@@ -391,7 +400,7 @@ html {
     }
 }
 
-footer {
+.footer {
     background: rgba(0, 0, 0, 0.8); /* Dark background */
     color: white;
     text-align: center;
